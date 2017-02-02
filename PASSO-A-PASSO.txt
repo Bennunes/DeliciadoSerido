@@ -1,0 +1,70 @@
+Passo a passo do Git Bash
+
+CONFIGURAÇÃO:
+
+1º Passo: Configure a sua máquina
+$ git config --global user.name "[SEU_NOME]"
+$ git config --global user.email [SEU_EMAIL]
+
+2º Passo: Clone o projeto em sua máquina
+$ git clone [URL_DO_PROJETO]
+
+3º Passo: Entre no diretório aonde estão 
+todas as pastas do projeto
+$ cd [NOME_DA_PASTA] 
+- o nome da pasta sempre é o nome do
+projeto/repositório.
+
+4º Passo: Criar um repositório .git invisível
+$ git init 
+
+SALVAR ALTERAÇÕES E MONITORAR:
+
+5º Passo: Para listar as pastas e arquivos
+existentes no diretório.
+$ ls 
+- kkkkk
+
+- após alterar o seu primeiro aquivo
+você precisará seguir algumas coisas
+
+6º Passo: Veja quais arquivos foi alterado
+$ git status
+
+7º Passo: Agora adcione os arquivos alterados
+$ git add [NOME_DO_ARQUIVO]
+- ou se preferir
+$ git add . 
+- add tudo de uma vez
+
+8º Passo: Confirmar que o arquivo foi adcionado
+ao git.
+$ git status
+
+9º Passo: Agora você precisa comitar o arquivo
+$ git commit -m "[FRASE]"
+
+10º Passo: Verifique se a sua mensagem e alteração
+deu certo.
+$ git log
+- o "git log" também serve para ver as atualizações 
+já feitas naquele arquivo.
+
+11º Passo: Agora adcionem o arquivo alterado 
+ao servidor (Github) 
+$ git push
+
+P R O N T O
+
+Mas conforme o projeto vai andando e as alterações
+forem sendo feitas; não será mais necessário o
+comando "git clone". Agora para atualizar o nosso
+diretório (arquivos guardados na nossa máquina)
+usaremos o comando PULL
+
+$ git pull 
+
+- ele serve para nos deixar atualizados
+
+não esqueça de sempre antes de trabalhar
+usar o PULL
