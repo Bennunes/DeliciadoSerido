@@ -4,22 +4,24 @@ body{
 
 header{
 	height: 70px;
-	background-color: transparent;
-}
-.menu{
+	background-color: black;
+	position: fixed;
 
+}
+
+.menu{
 
 }
 
 .background{
 	width: 100%;
-	height: 800px;
+	height: 1000px;
 
 }
 
 .background img{
 	width: 100%;
-	height: 800px;
+	height: 1000px;
 
 
 
@@ -27,8 +29,18 @@ header{
 
 
 .produtos{
-	height: 500px;
-	background-color: #E8DDCB;
+	height: 600px;
+	background-color:#F5F5F5;
+
+}
+.titulos{
+
+	text-align: center;
+	font-size: 42px;
+	padding-top: 5%;
+}
+
+
 }
 .historia{
 	height: 700px;
@@ -45,5 +57,5 @@ ul{
 }
 
 .carousel-inner{
-	margin-top: 11%;
+	margin-top: 3%;
 }
